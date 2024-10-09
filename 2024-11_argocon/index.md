@@ -272,7 +272,7 @@ A problem with 1000s of services
 
 Instead of removing Deployment you can scale it down to zero and reference it from the Rollout resource:
 
-1. Create a Rollout resource.
+1. Create a Rollout resource test.
 1. Reference an existing Deployment using `workloadRef` field.
 1. In the `workloadRef` field set the `scaleDown` attribute, which specifies how the Deployment should be scaled down. There are three options available:
    * `never`: the Deployment is not scaled down
